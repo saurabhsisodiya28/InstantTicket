@@ -7,6 +7,10 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import splashPic from '../assets/splash.png';
 import DashboardScreen from './DashboardScreen';
+<<<<<<< HEAD
+=======
+import AsyncStorage from 'react-native';
+>>>>>>> 2a4746a08d523d173832dc221d281617cc05136f
 const Stack = createStackNavigator();
 
 function SplashScreen({navigation}) {
