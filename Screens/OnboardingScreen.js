@@ -88,7 +88,7 @@ const OnboardingScreen = ({navigation}) => {
         onDone={() => navigation.navigate("DashboardScreen")}
         pages={[
           {
-            backgroundColor: '#a6f4d0',
+            backgroundColor: '#a6e4d0',
             image: <Image source={require('../images/onboarding-img1.png')} />,
             title: 'Connect to the World',
             subtitle: 'A New Way To Travel The World',
